@@ -9,6 +9,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "reiny": "git://github.com/mizchi/reiny"
+    "reiny": "0.1.0",
+    "through": "^2.3.7"
   }
 }
