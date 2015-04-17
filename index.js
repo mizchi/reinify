@@ -2,7 +2,7 @@
   var path = require('path');
   var fs = require('fs');
   var through = require('through');
-  var reiny = require('reiny');
+  var reiny = require('reiny/lib');
 
   module.exports = function(file) {
     if (!/\.reiny$/.test(file)) {
