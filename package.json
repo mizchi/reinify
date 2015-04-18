@@ -1,21 +1,31 @@
 {
   "name": "reinify",
-  "version": "0.1.6",
-  "description": "",
+  "version": "0.2.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "mizchi",
   "license": "MIT",
   "dependencies": {
     "reiny": "0.1.6",
     "through": "^2.3.7"
   },
-  "gitHead": "749dae022cf867010b6e6d8fee1536555133f4b8",
-  "readme": "ERROR: No README data found!",
-  "_id": "reinify@0.1.3",
   "_shasum": "c7048eae4f4dc16ab63abcf0ae57f88c0d173ff4",
   "_from": "git://github.com/mizchi/reinify#749dae022cf867010b6e6d8fee1536555133f4b8",
-  "_resolved": "git://github.com/mizchi/reinify#749dae022cf867010b6e6d8fee1536555133f4b8"
+  "_resolved": "git://github.com/mizchi/reinify#749dae022cf867010b6e6d8fee1536555133f4b8",
+  "description": "browseriyf plugin for reiny",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mizchi/reinify.git"
+  },
+  "keywords": [
+    "react",
+    "reiny"
+  ],
+  "bugs": {
+    "url": "https://github.com/mizchi/reinify/issues"
+  },
+  "homepage": "https://github.com/mizchi/reinify"
 }
