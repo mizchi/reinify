@@ -1,6 +1,6 @@
 {
   "name": "reinify",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "reiny": "0.1.5",
+    "reiny": "0.1.6",
     "through": "^2.3.7"
   },
   "gitHead": "749dae022cf867010b6e6d8fee1536555133f4b8",
