@@ -1,6 +1,6 @@
 {
   "name": "reinify",
-  "version": "0.3.0",
+  "version": "0.3.5",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -8,7 +8,7 @@
   "author": "mizchi",
   "license": "MIT",
   "dependencies": {
-    "reiny": "0.3.0",
+    "reiny": "0.3.5",
     "through": "^2.3.7"
   },
   "_shasum": "c7048eae4f4dc16ab63abcf0ae57f88c0d173ff4",
