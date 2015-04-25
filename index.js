@@ -12,6 +12,7 @@
     var write = function(buf) {
       return inputString += buf;
     };
+    console.error('options');
     var end = function() {
       this.queue(reiny.compile(inputString, options));
       return this.queue(null);
