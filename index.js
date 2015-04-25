@@ -4,7 +4,7 @@
   var through = require('through');
   var reiny = require('reiny/lib');
 
-  module.exports = function(file) {
+  module.exports = function(file, options) {
     if (!/\.reiny$/.test(file)) {
       return through();
     }
@@ -13,7 +13,7 @@
       return inputString += buf;
     };
     var end = function() {
-      this.queue(reiny.compile(inputString));
+      this.queue(reiny.compile(inputString, options));
       return this.queue(null);
     };
     return through(write, end);
